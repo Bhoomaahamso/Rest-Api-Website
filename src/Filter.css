@@ -1,0 +1,10 @@
+select {
+    padding: 15px 10px;
+    border: none;
+}
+
+.dark-elem {
+    background-color: hsl(209, 23%, 22%);
+    border: none;
+    color: white;
+}

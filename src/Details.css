@@ -1,0 +1,109 @@
+.btn {
+  margin: 30px;
+}
+
+button {
+  background-color: white !important;
+}
+
+.btn-dark {
+  background-color: hsl(209, 23%, 22%) !important;
+  color: white !important;
+}
+
+.detail {
+  display: flex;
+}
+
+.flag {
+  display: flex;
+  flex: 0.5;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 88%;
+  height: 100%;
+  max-width: 450px;
+  margin-left: 30px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  margin-left: 50px;
+  padding-left: 30px;
+}
+
+h2 {
+  margin: 16px 0;
+}
+
+.page-text {
+  max-height: 110px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.label {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 40px 0;
+}
+
+span {
+  font-weight: 300 !important;
+}
+
+.coma span:after {
+  content: ", ";
+  }
+
+.coma span:last-child:after {
+  content: "";
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width: 676px) {
+
+  .detail {
+    flex-direction: column;
+  }
+
+  .flag {
+    justify-content: flex-start;
+  }
+
+  .text, img {
+    margin-left: 6%;
+    padding: 0;
+  }
+
+  .text h2 {
+    font-size: x-large;
+  }
+
+  .break {
+    height: 30px;
+  }
+
+  .btn {
+    margin: 6%;
+  }
+
+  .page-text {
+    max-height: 400px;
+  }
+
+  .page-text p {
+    margin-bottom: 10px;
+  }
+}

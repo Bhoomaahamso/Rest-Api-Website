@@ -1,0 +1,35 @@
+.search {
+    display: flex;
+    padding: 13px;
+    width: 40%;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.darkmode {
+    background-color: hsl(209, 23%, 22%);
+}
+
+input {
+    border: none;
+    width: 100%;
+}
+
+.input-dark {
+    background-color: hsl(209, 23%, 22%);
+    color: white;
+}
+   
+ ::placeholder {
+    color: var(--c);
+} 
+
+
+
+@media only screen and (max-width: 676px) {
+    .search {
+        width: 90%;
+        margin-bottom: 14px;
+    }
+
+}
