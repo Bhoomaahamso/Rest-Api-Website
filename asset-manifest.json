@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Bhoomaahamso/Rest-Api-Website.git/static/css/main.88cceede.chunk.css",
-    "main.js": "/Bhoomaahamso/Rest-Api-Website.git/static/js/main.bc2a9232.chunk.js",
-    "main.js.map": "/Bhoomaahamso/Rest-Api-Website.git/static/js/main.bc2a9232.chunk.js.map",
-    "runtime-main.js": "/Bhoomaahamso/Rest-Api-Website.git/static/js/runtime-main.c60d63d7.js",
-    "runtime-main.js.map": "/Bhoomaahamso/Rest-Api-Website.git/static/js/runtime-main.c60d63d7.js.map",
-    "static/js/2.ab8ebb1a.chunk.js": "/Bhoomaahamso/Rest-Api-Website.git/static/js/2.ab8ebb1a.chunk.js",
-    "static/js/2.ab8ebb1a.chunk.js.map": "/Bhoomaahamso/Rest-Api-Website.git/static/js/2.ab8ebb1a.chunk.js.map",
-    "static/js/3.0d38593b.chunk.js": "/Bhoomaahamso/Rest-Api-Website.git/static/js/3.0d38593b.chunk.js",
-    "static/js/3.0d38593b.chunk.js.map": "/Bhoomaahamso/Rest-Api-Website.git/static/js/3.0d38593b.chunk.js.map",
-    "index.html": "/Bhoomaahamso/Rest-Api-Website.git/index.html",
-    "static/css/main.88cceede.chunk.css.map": "/Bhoomaahamso/Rest-Api-Website.git/static/css/main.88cceede.chunk.css.map",
-    "static/js/2.ab8ebb1a.chunk.js.LICENSE.txt": "/Bhoomaahamso/Rest-Api-Website.git/static/js/2.ab8ebb1a.chunk.js.LICENSE.txt"
+    "main.css": "/bhoomaahamso/Rest-Api-Website.git/static/css/main.88cceede.chunk.css",
+    "main.js": "/bhoomaahamso/Rest-Api-Website.git/static/js/main.bc2a9232.chunk.js",
+    "main.js.map": "/bhoomaahamso/Rest-Api-Website.git/static/js/main.bc2a9232.chunk.js.map",
+    "runtime-main.js": "/bhoomaahamso/Rest-Api-Website.git/static/js/runtime-main.2e623162.js",
+    "runtime-main.js.map": "/bhoomaahamso/Rest-Api-Website.git/static/js/runtime-main.2e623162.js.map",
+    "static/js/2.ab8ebb1a.chunk.js": "/bhoomaahamso/Rest-Api-Website.git/static/js/2.ab8ebb1a.chunk.js",
+    "static/js/2.ab8ebb1a.chunk.js.map": "/bhoomaahamso/Rest-Api-Website.git/static/js/2.ab8ebb1a.chunk.js.map",
+    "static/js/3.0d38593b.chunk.js": "/bhoomaahamso/Rest-Api-Website.git/static/js/3.0d38593b.chunk.js",
+    "static/js/3.0d38593b.chunk.js.map": "/bhoomaahamso/Rest-Api-Website.git/static/js/3.0d38593b.chunk.js.map",
+    "index.html": "/bhoomaahamso/Rest-Api-Website.git/index.html",
+    "static/css/main.88cceede.chunk.css.map": "/bhoomaahamso/Rest-Api-Website.git/static/css/main.88cceede.chunk.css.map",
+    "static/js/2.ab8ebb1a.chunk.js.LICENSE.txt": "/bhoomaahamso/Rest-Api-Website.git/static/js/2.ab8ebb1a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c60d63d7.js",
+    "static/js/runtime-main.2e623162.js",
     "static/js/2.ab8ebb1a.chunk.js",
     "static/css/main.88cceede.chunk.css",
     "static/js/main.bc2a9232.chunk.js"
