@@ -6,13 +6,14 @@ function BorderCountries({j, dmode}) {
 
     const [cname, setCname] = useState('')
 
-    const url = `https://restcountries.eu/rest/v2/alpha/${j}`
+    // const url = `https://restcountries.eu/rest/v2/alpha/${j}`
+    const url = `https://restcountries.com/v3.1/alpha/${j}`
 
     const getName = async () => {
         await fetch(url)
         .then(res=>res.json())
         .then(data => {
-            setCname(data.name)
+            setCname(data[0].name.common)
         })
     }
     
