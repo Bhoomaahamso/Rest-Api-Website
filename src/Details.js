@@ -44,34 +44,38 @@ function Details({ dmode }) {
               <div>
                 <h2>{i.name.common}</h2>
               </div>
-               <div className="page-text">
-              {/* <p>Native Name: <span>{i.name.nativeName.zho.common }</span></p> */}
-              <p>Population: <span>{i.population}</span></p>
-              <p>Region: <span>{i.region}</span></p>
-              <p>Sub Region: <span>{i.subregion}</span></p>
-              <p>Capital: <span>{i.capital}</span></p>
-              <span className="break"></span>
-              <p>Top Level Domain: <span>{i.tld[0]}</span></p>
-              <p>Currencies: <span>{i.currencies[Object.keys(i.currencies)[0]].name}</span></p>
-              <p className="coma">
-                Languages:{" "}
-                {/* {i.languages.map((k) => (
+              <div className="page-text">
+                {/* <p>Native Name: <span>{i.name.nativeName.zho.common }</span></p> */}
+                <p>Population: <span>{i.population}</span></p>
+                <p>Region: <span>{i.region}</span></p>
+                <p>Sub Region: <span>{i.subregion}</span></p>
+                <p>Capital: <span>{i.capital}</span></p>
+                <span className="break"></span>
+                <p>Top Level Domain: <span>{i.tld[0]}</span></p>
+                <p>Currencies: <span>{i.currencies[Object.keys(i.currencies)[0]].name}</span></p>
+                <p className="coma">
+                  Languages:{" "}
+                  {/* {i.languages.map((k) => (
                   <span>{k}</span>
                 ))} */}
-                
-                {Object.keys(i.languages).map((key) => 
-                      <span>{i.languages[key]}</span>
-                )}
+
+                  {Object.keys(i.languages).map((key) =>
+                    <span>{i.languages[key]}</span>
+                  )}
 
 
-                
-              </p>
+
+                </p>
               </div>
               <div className="label">
-              <h4>Border Countries: </h4>
-              {i.borders.map((j) => (         
-                  <BorderCountries j={j} dmode={dmode} />
-              ))}
+                <h4>Border Countries: </h4>
+                {
+                  i.borders ? i.borders.map((j) => (
+                    <BorderCountries j={j} dmode={dmode} />
+                  ))
+                  :
+                  (<h5> &nbsp; None</h5>)                
+                }
               </div>
             </div>
           </div>
